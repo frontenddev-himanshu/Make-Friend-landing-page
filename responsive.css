@@ -1,0 +1,124 @@
+@media screen and (max-width:1366px) {
+
+    nav {
+        width: 90%;
+    }
+
+    .front {
+        width: 90%;
+    }
+
+    .front-img img {
+        height: 700px;
+    }
+
+    .login_container {
+        height: 500px;
+        width: 550px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:765px) {
+
+    nav {
+        width: 95%;
+        height: 8vh;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btns a {
+        font-size: 0.8rem;
+    }
+
+    .nav-btns a button {
+        width: 100px;
+        height: 35px;
+        font-size: 0.7rem;
+    }
+
+    .nav-logo img {
+        width: 120px;
+    }
+
+    .front {
+        width: 95%;
+        height: 92vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .front-content {
+        height: fit-content;
+        text-align: center;
+        margin-top: 60px;
+    }
+
+    .front-content h3 {
+        font-size: 2.5rem;
+    }
+
+
+    .front-content p {
+        text-align: center;
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .front-content a button {
+        width: 140px;
+        height: 40px;
+        font-size: 0.9rem;
+    }
+
+    .front-img {
+        height: 100%;
+    }
+
+    .front-img img {
+        bottom: 0px;
+        right: 50%;
+        transform: translateX(50%);
+        height: 400px;
+    }
+
+    .login_container {
+        width: 95%;
+        height: 70%;
+    }
+
+    .content h1 {
+        font-size: 2rem !important;
+    }
+
+    .input-container {
+        max-width: 260px;
+    }
+
+    .forgot a {
+        font-size: 0.9rem;
+    }
+
+    .btn button {
+        padding: 10px 50px;
+        font-size: 0.8rem;
+    }
+
+    .btn span {
+        font-size: 0.9rem;
+    }
+
+    .btn span a {
+        font-size: 0.9rem;
+    }
+
+
+
+}
