@@ -83,7 +83,7 @@
     }
 
     .front-img img {
-        bottom: 0px;
+        bottom: -50px;
         right: 50%;
         transform: translateX(50%);
         height: 400px;
